@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    background-color: rgb(218, 164, 182);
+}
+.wrapper ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 10px 0;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+.wrapper ul a{
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: black;
+    font-weight: bold;
+}
+.wrapper ul a:hover {
+    color: blue;
+}
+table{
+    border: 1px solid black;
+    padding: 20px
+}
+.section-main-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+}
+.nhap, .giai{
+    width: 270px;
+    margin: 20px 20px 20px 0;
+    height: 100px;
+}
